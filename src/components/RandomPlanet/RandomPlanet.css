@@ -1,0 +1,27 @@
+.random-planet {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #303030;
+  padding: 20px;
+  min-height: 240px;
+}
+
+.random-planet__img {
+  width: 200px;
+}
+
+.random-planet__img img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.random-planet__content {
+  flex: 1 1 auto;
+  padding: 20px;
+}
+.random-planet__content span {
+  margin-right: 10px;
+}
